@@ -43,5 +43,8 @@
   .badge {
     padding: 6px 12px;
     font-size: 11px;
+    white-space: normal;
+    text-align: center;
+    line-height: 1.3;
   }
 }
