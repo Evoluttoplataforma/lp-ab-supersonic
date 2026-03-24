@@ -27,7 +27,7 @@ export default function Navbar({ ctaHref = '#contato' }) {
         className={styles.navbar}
       >
         <div className={styles.container}>
-          <a href="/" className={styles.logo}>
+          <a href="#" className={styles.logo} onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) }}>
             <img src="/assets/logo-templum.svg" alt="Templum" width="120" height="32" />
           </a>
 
