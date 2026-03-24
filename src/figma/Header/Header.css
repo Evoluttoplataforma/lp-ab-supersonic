@@ -1,0 +1,67 @@
+.header,
+.header * {
+  box-sizing: border-box;
+}
+.header {
+  background: var(--neutral-10, #ffffff);
+  border-style: solid;
+  border-color: var(--neutral-100, #eceff2);
+  border-width: 0px 0px 1px 0px;
+  padding: var(--spacing-24, 24px) var(--spacing-80, 80px)
+    var(--spacing-24, 24px) var(--spacing-80, 80px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.header .frame-2 {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-40, 40px);
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.header .vector {
+  flex-shrink: 0;
+  width: 120px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 120/32;
+}
+.header .vector-1 {
+  flex-shrink: 0;
+  width: 0px;
+  height: 19.5px;
+  position: relative;
+  overflow: visible;
+}
+.header .links {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-40, 40px);
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.header .links-instance {
+  flex-shrink: 0 !important;
+}
+.header .cta {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 56px;
+  position: relative;
+}
+.header .button-outline-instance {
+  flex-shrink: 0 !important;
+  height: 56px !important;
+}

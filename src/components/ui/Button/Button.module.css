@@ -1,0 +1,158 @@
+/* Split button container */
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--primary-500);
+  outline-offset: 2px;
+  border-radius: var(--radius-12);
+}
+
+/* Arrow square */
+.arrowBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: var(--radius-12);
+  transition: background 200ms ease;
+  order: 1;
+}
+
+/* Text part */
+.textBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--radius-12);
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-medium);
+  white-space: nowrap;
+  transition: background 200ms ease;
+  order: 2;
+}
+
+/* ===== Hover: arrow swaps to the right (all variants) ===== */
+.button:hover .arrowBox {
+  order: 2;
+}
+.button:hover .textBox {
+  order: 1;
+}
+
+/* ===================== Variants ===================== */
+
+/* Primary */
+.primary .arrowBox {
+  background: var(--primary-500);
+  color: var(--neutral-10);
+}
+.primary .textBox {
+  background: var(--primary-500);
+  color: var(--neutral-10);
+}
+.primary:hover .arrowBox { background: var(--primary-600); }
+.primary:hover .textBox { background: var(--primary-600); }
+
+/* Outline (orange border) */
+.outline .arrowBox {
+  background: transparent;
+  color: var(--primary-500);
+  border: 1px solid var(--primary-500);
+}
+.outline .textBox {
+  background: transparent;
+  color: var(--primary-500);
+  border: 1px solid var(--primary-500);
+}
+.outline:hover .arrowBox { background: var(--primary-50); }
+.outline:hover .textBox { background: var(--primary-50); }
+
+/* Dark */
+.dark .arrowBox {
+  background: var(--neutral-900);
+  color: var(--neutral-10);
+  border: 1px solid var(--neutral-700);
+}
+.dark .textBox {
+  background: var(--neutral-900);
+  color: var(--neutral-10);
+  border: 1px solid var(--neutral-700);
+}
+.dark:hover .arrowBox { background: var(--neutral-800); }
+.dark:hover .textBox { background: var(--neutral-800); }
+
+/* Ghost */
+.ghost .arrowBox {
+  background: transparent;
+  color: var(--primary-500);
+}
+.ghost .textBox {
+  background: transparent;
+  color: var(--primary-500);
+}
+
+/* ===================== Sizes ===================== */
+
+/* Small (navbar) */
+.sm .arrowBox {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-8);
+}
+.sm .textBox {
+  padding: 12px 24px;
+  font-size: var(--font-size-14);
+  height: 48px;
+  border-radius: var(--radius-8);
+}
+
+/* Medium */
+.md .arrowBox {
+  width: 48px;
+  height: 48px;
+}
+.md .textBox {
+  padding: 14px 28px;
+  font-size: var(--font-size-16);
+  height: 48px;
+}
+
+/* Large */
+.lg .arrowBox {
+  width: 56px;
+  height: 56px;
+}
+.lg .textBox {
+  padding: 16px 32px;
+  font-size: var(--font-size-16);
+  height: 56px;
+}
+
+/* Full width */
+.fullWidth {
+  width: 100%;
+}
+.fullWidth .textBox {
+  flex: 1;
+}
+
+/* Disabled */
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* ===================== Responsive ===================== */
+@media (max-width: 768px) {
+  .lg .arrowBox { width: 48px; height: 48px; }
+  .lg .textBox { padding: 14px 24px; height: 48px; font-size: var(--font-size-14); }
+}

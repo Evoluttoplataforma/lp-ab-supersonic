@@ -1,0 +1,86 @@
+.benefitsGrid {
+  background: #ff5724;
+  padding: 80px 120px 120px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.title {
+  margin-top: var(--spacing-24);
+  font-family: var(--font-family-heading);
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 var(--spacing-48) 0;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  max-width: 787px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: var(--spacing-16);
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: var(--spacing-24);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-48);
+  min-height: 214px;
+  flex: 1;
+  box-shadow:
+    0px 1px 2px rgba(0, 0, 0, 0.06),
+    0px 4px 8px rgba(0, 0, 0, 0.04),
+    0px 8px 16px rgba(0, 0, 0, 0.03);
+}
+
+.cardIcon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.cardLabel {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #ff5724;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+@media (max-width: 1024px) {
+  .benefitsGrid { padding: 60px 40px 80px 40px; }
+  .grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .benefitsGrid { padding: 48px 20px 64px 20px; }
+  .title { font-size: 28px; margin-top: 24px; }
+  .grid { grid-template-columns: repeat(2, 1fr); gap: var(--spacing-12); }
+  .card { padding: var(--spacing-16); height: auto; min-height: 160px; gap: var(--spacing-24); }
+}
+
+@media (max-width: 480px) {
+  .grid { grid-template-columns: 1fr 1fr; }
+}

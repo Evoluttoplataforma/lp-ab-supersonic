@@ -1,0 +1,60 @@
+.button-primary-property-1-default,
+.button-primary-property-1-default * {
+  box-sizing: border-box;
+}
+.button-primary-property-1-default {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.button-primary-property-1-default .button-primary {
+  background: var(--primary-500, #ff5724);
+  border-radius: var(--radius-12, 12px);
+  padding: 16px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  position: relative;
+  overflow: hidden;
+}
+.button-primary-property-1-default .arrow-right {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.button-primary-property-1-default .button-primary2 {
+  background: var(--primary-500, #ff5724);
+  border-radius: var(--radius-12, 12px);
+  padding: 16px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 56px;
+  position: relative;
+  overflow: hidden;
+}
+.button-primary-property-1-default .texto-bot-o {
+  color: var(--neutral-10, #ffffff);
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  white-space: nowrap;
+}
+.button-primary-property-1-default .button-primary3 {
+  display: none;
+}

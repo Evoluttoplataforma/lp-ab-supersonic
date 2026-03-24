@@ -1,0 +1,81 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: flex-end;
+  animation: fadeIn 200ms ease;
+}
+
+.menu {
+  position: relative;
+  width: 85%;
+  max-width: 360px;
+  background: var(--neutral-10);
+  border-radius: var(--radius-24) 0 0 var(--radius-24);
+  padding: var(--spacing-32) var(--spacing-24);
+  display: flex;
+  flex-direction: column;
+  animation: slideIn 300ms ease;
+}
+
+.close {
+  position: absolute;
+  top: var(--spacing-16);
+  right: var(--spacing-16);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  background: var(--neutral-50);
+  color: var(--support-default);
+  transition: background 200ms ease;
+}
+
+.close:hover {
+  background: var(--neutral-100);
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--spacing-48);
+  gap: 0;
+}
+
+.navLink {
+  display: block;
+  padding: var(--spacing-20) 0;
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-medium);
+  color: var(--support-default);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--neutral-200);
+  transition: color 200ms ease;
+}
+
+.navLink:last-child {
+  border-bottom: none;
+}
+
+.navLink:hover {
+  color: var(--primary-500);
+}
+
+.cta {
+  margin-top: auto;
+  padding-top: var(--spacing-32);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}

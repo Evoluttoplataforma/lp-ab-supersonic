@@ -1,0 +1,10 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: var(--spacing-24);
+  padding-right: var(--spacing-24);
+}
+
+.sm { max-width: 720px; }
+.md { max-width: 1024px; }
+.lg { max-width: 1200px; }

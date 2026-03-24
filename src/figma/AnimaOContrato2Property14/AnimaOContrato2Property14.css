@@ -1,0 +1,302 @@
+.anima-o-contrato-2-property-14,
+.anima-o-contrato-2-property-14 * {
+  box-sizing: border-box;
+}
+.anima-o-contrato-2-property-14 {
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(236, 239, 242, 1);
+}
+.anima-o-contrato-2-property-14 .content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.anima-o-contrato-2-property-14 .content2 {
+  background: var(--neutral-10, #ffffff);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--neutral-100, #eceff2);
+  border-width: 1px;
+  padding: 24px 20px 24px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 300px;
+  position: relative;
+  box-shadow: 0px 0px 0px 2px rgba(236, 239, 242, 0.3);
+  overflow: hidden;
+}
+.anima-o-contrato-2-property-14 .header-contrato {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.anima-o-contrato-2-property-14 .content3 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.anima-o-contrato-2-property-14 .icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.anima-o-contrato-2-property-14 .label {
+  color: var(--neutral-900, #212730);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+}
+.anima-o-contrato-2-property-14 .icon-container {
+  border-radius: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.anima-o-contrato-2-property-14 .content4 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.anima-o-contrato-2-property-14 .content5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.anima-o-contrato-2-property-14 .text {
+  color: var(--neutral-500, #4f627a);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+}
+.anima-o-contrato-2-property-14 .rounded-rectangle {
+  background: var(--neutral-100, #eceff2);
+  border-radius: 500px;
+  flex-shrink: 0;
+  width: 164px;
+  height: 14px;
+  position: relative;
+}
+.anima-o-contrato-2-property-14 .status-text {
+  color: var(--neutral-500, #4f627a);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+}
+.anima-o-contrato-2-property-14 .rounded-rectangle2 {
+  background: var(--neutral-100, #eceff2);
+  border-radius: 500px;
+  flex-shrink: 0;
+  width: 77px;
+  height: 14px;
+  position: relative;
+}
+.anima-o-contrato-2-property-14 .title {
+  color: var(--neutral-500, #4f627a);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+}
+.anima-o-contrato-2-property-14 .rounded-rectangle3 {
+  background: var(--neutral-100, #eceff2);
+  border-radius: 500px;
+  flex-shrink: 0;
+  width: 131px;
+  height: 14px;
+  position: relative;
+}
+.anima-o-contrato-2-property-14 .icon2 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.anima-o-contrato-2-property-14 .name {
+  color: var(--neutral-900, #212730);
+  text-align: left;
+  font-family: "FigmaHand-Regular", sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.011000000000000001em;
+  font-weight: 400;
+  position: relative;
+}
+.anima-o-contrato-2-property-14 .item {
+  background: var(--neutral-10, #ffffff);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--neutral-100, #eceff2);
+  border-width: 1px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 300px;
+  position: relative;
+  box-shadow: 0px 0px 0px 2px rgba(236, 239, 242, 0.3);
+  overflow: hidden;
+}
+.anima-o-contrato-2-property-14 .certification-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.anima-o-contrato-2-property-14 .icon3 {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.anima-o-contrato-2-property-14 .verified-icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.anima-o-contrato-2-property-14 .certification-name {
+  color: var(--neutral-900, #212730);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+}
+.anima-o-contrato-2-property-14 .icon-container2 {
+  border-radius: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}
+.anima-o-contrato-2-property-14 .status-message {
+  color: var(--neutral-500, #4f627a);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+}
+.anima-o-contrato-2-property-14 ._35875-confetti-on-transparent-background-1 {
+  flex-shrink: 0;
+  width: 161.43px;
+  height: 161.43px;
+  position: absolute;
+  left: 179px;
+  top: -21.22px;
+  transform-origin: 0 0;
+  transform: rotate(-15deg) scale(1, 1);
+  mix-blend-mode: darken;
+  object-fit: cover;
+}
+.anima-o-contrato-2-property-14 .tag {
+  flex-shrink: 0;
+  width: 52px;
+  height: 45px;
+  position: static;
+}
+.anima-o-contrato-2-property-14 .mouse-figma {
+  width: 20px;
+  height: 23.24px;
+  position: absolute;
+  left: 166px;
+  top: 308px;
+  overflow: visible;
+  aspect-ratio: 20/23.24;
+}
+.anima-o-contrato-2-property-14 .you {
+  background: var(--neutral-900, #212730);
+  border-radius: 2px;
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 37px;
+  height: 21px;
+  position: absolute;
+  left: 181px;
+  top: 332px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.anima-o-contrato-2-property-14 .tag-text {
+  color: var(--neutral-10, #ffffff);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: relative;
+}

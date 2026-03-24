@@ -1,0 +1,972 @@
+.img-orbit-property-1-default,
+.img-orbit-property-1-default * {
+  box-sizing: border-box;
+}
+.img-orbit-property-1-default {
+  background: rgba(246, 247, 249, 0.5);
+  border-radius: 16px;
+  height: 440px;
+  position: relative;
+  overflow: hidden;
+}
+.img-orbit-property-1-default ._1920-w-default-1 {
+  border-radius: 16px;
+  width: 1215px;
+  height: 610px;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  box-shadow: 0px 0px 0px 10px rgba(236, 239, 242, 0.5);
+  object-fit: cover;
+  aspect-ratio: 1215/610;
+}
+.img-orbit-property-1-default .group-1 {
+  position: absolute;
+  inset: 0;
+}
+.img-orbit-property-1-default .cursor-hover-instance {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 40px !important;
+  top: 40px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance2 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 79.23px !important;
+  top: 40px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance3 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 118.46px !important;
+  top: 40px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance4 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 157.69px !important;
+  top: 40px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance5 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 196.92px !important;
+  top: 40px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance6 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 236.15px !important;
+  top: 40px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance7 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 275.38px !important;
+  top: 40px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance8 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 314.62px !important;
+  top: 40px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance9 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 353.85px !important;
+  top: 40px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance10 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 393.08px !important;
+  top: 40px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance11 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 432.31px !important;
+  top: 40px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance12 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 471.54px !important;
+  top: 40px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance13 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 510.77px !important;
+  top: 40px !important;
+}
+.img-orbit-property-1-default .group-2 {
+  position: absolute;
+  inset: 0;
+}
+.img-orbit-property-1-default .cursor-hover-instance14 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 40px !important;
+  top: 80px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance15 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 79.23px !important;
+  top: 80px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance16 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 118.46px !important;
+  top: 80px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance17 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 157.69px !important;
+  top: 80px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance18 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 196.92px !important;
+  top: 80px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance19 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 236.15px !important;
+  top: 80px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance20 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 275.38px !important;
+  top: 80px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance21 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 314.62px !important;
+  top: 80px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance22 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 353.85px !important;
+  top: 80px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance23 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 393.08px !important;
+  top: 80px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance24 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 432.31px !important;
+  top: 80px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance25 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 471.54px !important;
+  top: 80px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance26 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 510.77px !important;
+  top: 80px !important;
+}
+.img-orbit-property-1-default .group-3 {
+  position: absolute;
+  inset: 0;
+}
+.img-orbit-property-1-default .cursor-hover-instance27 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 40px !important;
+  top: 120px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance28 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 79.23px !important;
+  top: 120px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance29 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 118.46px !important;
+  top: 120px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance30 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 157.69px !important;
+  top: 120px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance31 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 196.92px !important;
+  top: 120px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance32 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 236.15px !important;
+  top: 120px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance33 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 275.38px !important;
+  top: 120px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance34 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 314.62px !important;
+  top: 120px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance35 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 353.85px !important;
+  top: 120px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance36 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 393.08px !important;
+  top: 120px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance37 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 432.31px !important;
+  top: 120px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance38 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 471.54px !important;
+  top: 120px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance39 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 510.77px !important;
+  top: 120px !important;
+}
+.img-orbit-property-1-default .group-4 {
+  position: absolute;
+  inset: 0;
+}
+.img-orbit-property-1-default .cursor-hover-instance40 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 40px !important;
+  top: 160px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance41 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 79.23px !important;
+  top: 160px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance42 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 118.46px !important;
+  top: 160px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance43 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 157.69px !important;
+  top: 160px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance44 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 196.92px !important;
+  top: 160px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance45 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 236.15px !important;
+  top: 160px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance46 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 275.38px !important;
+  top: 160px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance47 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 314.62px !important;
+  top: 160px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance48 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 353.85px !important;
+  top: 160px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance49 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 393.08px !important;
+  top: 160px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance50 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 432.31px !important;
+  top: 160px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance51 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 471.54px !important;
+  top: 160px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance52 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 510.77px !important;
+  top: 160px !important;
+}
+.img-orbit-property-1-default .group-5 {
+  position: absolute;
+  inset: 0;
+}
+.img-orbit-property-1-default .cursor-hover-instance53 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 40px !important;
+  top: 200px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance54 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 79.23px !important;
+  top: 200px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance55 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 118.46px !important;
+  top: 200px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance56 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 157.69px !important;
+  top: 200px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance57 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 196.92px !important;
+  top: 200px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance58 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 236.15px !important;
+  top: 200px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance59 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 275.38px !important;
+  top: 200px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance60 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 314.62px !important;
+  top: 200px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance61 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 353.85px !important;
+  top: 200px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance62 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 393.08px !important;
+  top: 200px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance63 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 432.31px !important;
+  top: 200px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance64 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 471.54px !important;
+  top: 200px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance65 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 510.77px !important;
+  top: 200px !important;
+}
+.img-orbit-property-1-default .group-6 {
+  position: absolute;
+  inset: 0;
+}
+.img-orbit-property-1-default .cursor-hover-instance66 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 40px !important;
+  top: 240px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance67 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 79.23px !important;
+  top: 240px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance68 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 118.46px !important;
+  top: 240px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance69 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 157.69px !important;
+  top: 240px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance70 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 196.92px !important;
+  top: 240px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance71 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 236.15px !important;
+  top: 240px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance72 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 275.38px !important;
+  top: 240px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance73 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 314.62px !important;
+  top: 240px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance74 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 353.85px !important;
+  top: 240px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance75 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 393.08px !important;
+  top: 240px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance76 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 432.31px !important;
+  top: 240px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance77 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 471.54px !important;
+  top: 240px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance78 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 510.77px !important;
+  top: 240px !important;
+}
+.img-orbit-property-1-default .group-7 {
+  position: absolute;
+  inset: 0;
+}
+.img-orbit-property-1-default .cursor-hover-instance79 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 40px !important;
+  top: 280px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance80 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 79.23px !important;
+  top: 280px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance81 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 118.46px !important;
+  top: 280px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance82 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 157.69px !important;
+  top: 280px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance83 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 196.92px !important;
+  top: 280px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance84 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 236.15px !important;
+  top: 280px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance85 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 275.38px !important;
+  top: 280px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance86 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 314.62px !important;
+  top: 280px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance87 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 353.85px !important;
+  top: 280px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance88 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 393.08px !important;
+  top: 280px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance89 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 432.31px !important;
+  top: 280px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance90 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 471.54px !important;
+  top: 280px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance91 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 510.77px !important;
+  top: 280px !important;
+}
+.img-orbit-property-1-default .group-8 {
+  position: absolute;
+  inset: 0;
+}
+.img-orbit-property-1-default .cursor-hover-instance92 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 40px !important;
+  top: 320px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance93 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 79.23px !important;
+  top: 320px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance94 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 118.46px !important;
+  top: 320px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance95 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 157.69px !important;
+  top: 320px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance96 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 196.92px !important;
+  top: 320px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance97 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 236.15px !important;
+  top: 320px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance98 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 275.38px !important;
+  top: 320px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance99 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 314.62px !important;
+  top: 320px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance100 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 353.85px !important;
+  top: 320px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance101 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 393.08px !important;
+  top: 320px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance102 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 432.31px !important;
+  top: 320px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance103 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 471.54px !important;
+  top: 320px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance104 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 510.77px !important;
+  top: 320px !important;
+}
+.img-orbit-property-1-default .group-9 {
+  position: absolute;
+  inset: 0;
+}
+.img-orbit-property-1-default .cursor-hover-instance105 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 40px !important;
+  top: 360px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance106 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 79.23px !important;
+  top: 360px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance107 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 118.46px !important;
+  top: 360px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance108 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 157.69px !important;
+  top: 360px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance109 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 196.92px !important;
+  top: 360px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance110 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 236.15px !important;
+  top: 360px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance111 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 275.38px !important;
+  top: 360px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance112 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 314.62px !important;
+  top: 360px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance113 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 353.85px !important;
+  top: 360px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance114 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 393.08px !important;
+  top: 360px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance115 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 432.31px !important;
+  top: 360px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance116 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 471.54px !important;
+  top: 360px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance117 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 510.77px !important;
+  top: 360px !important;
+}
+.img-orbit-property-1-default .group-10 {
+  position: absolute;
+  inset: 0;
+}
+.img-orbit-property-1-default .cursor-hover-instance118 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 40px !important;
+  top: 400px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance119 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 79.23px !important;
+  top: 400px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance120 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 118.46px !important;
+  top: 400px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance121 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 157.69px !important;
+  top: 400px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance122 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 196.92px !important;
+  top: 400px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance123 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 236.15px !important;
+  top: 400px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance124 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 275.38px !important;
+  top: 400px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance125 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 314.62px !important;
+  top: 400px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance126 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 353.85px !important;
+  top: 400px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance127 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 393.08px !important;
+  top: 400px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance128 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 432.31px !important;
+  top: 400px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance129 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 471.54px !important;
+  top: 400px !important;
+}
+.img-orbit-property-1-default .cursor-hover-instance130 {
+  background: rgba(76, 61, 61, 0) !important;
+  width: 39.23px !important;
+  position: absolute !important;
+  left: 510.77px !important;
+  top: 400px !important;
+}

@@ -1,0 +1,263 @@
+.anima-o-prova-social-property-11,
+.anima-o-prova-social-property-11 * {
+  box-sizing: border-box;
+}
+.anima-o-prova-social-property-11 {
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 320px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(236, 239, 242, 1);
+}
+.anima-o-prova-social-property-11 .prova-3 {
+  background: var(--neutral-10, #ffffff);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--neutral-100, #eceff2);
+  border-width: 1px;
+  padding: 24px 16px 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 300px;
+  height: 174px;
+  position: absolute;
+  left: 21.78px;
+  top: -4px;
+  box-shadow: 0px 0px 0px 2px rgba(236, 239, 242, 0.3),
+    0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+  transform-origin: 0 0;
+  transform: rotate(5.534deg) scale(1, 1);
+  overflow: hidden;
+}
+.anima-o-prova-social-property-11 .content {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  width: 268px;
+  position: relative;
+}
+.anima-o-prova-social-property-11 .lucas-noiola-1 {
+  border-radius: 100px;
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.anima-o-prova-social-property-11 .user-information {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.anima-o-prova-social-property-11 .label {
+  color: var(--neutral-900, #212730);
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.anima-o-prova-social-property-11 .text {
+  color: var(--neutral-500, #4f627a);
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.anima-o-prova-social-property-11 .testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.anima-o-prova-social-property-11 .content2 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.anima-o-prova-social-property-11 .content3 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.anima-o-prova-social-property-11 .content4 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.anima-o-prova-social-property-11 .text2 {
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 13px;
+  line-height: 140%;
+  font-weight: 400;
+  position: relative;
+  align-self: stretch;
+}
+.text-2-span {
+  color: var(--neutral-500, #4f627a);
+  font-family: "Inter-Regular", sans-serif;
+}
+.text-2-span2 {
+  color: var(--neutral-900, #212730);
+  font-family: "Inter-Medium", sans-serif;
+  font-weight: 500;
+}
+.anima-o-prova-social-property-11 .prova-2 {
+  background: var(--neutral-10, #ffffff);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--neutral-100, #eceff2);
+  border-width: 1px;
+  padding: 24px 16px 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 300px;
+  position: absolute;
+  left: 3.81px;
+  top: 27.6px;
+  box-shadow: 0px 0px 0px 2px rgba(236, 239, 242, 0.3),
+    0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+  transform-origin: 0 0;
+  transform: rotate(-6.501deg) scale(1, 1);
+  overflow: hidden;
+}
+.anima-o-prova-social-property-11 .lucas-noiola-12 {
+  border-radius: 100px;
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.text-2-span {
+  color: var(--neutral-500, #4f627a);
+  font-family: "Inter-Regular", sans-serif;
+}
+.text-2-span2 {
+  color: var(--neutral-900, #212730);
+  font-family: "Inter-Medium", sans-serif;
+  font-weight: 500;
+}
+.anima-o-prova-social-property-11 .prova-1 {
+  background: var(--neutral-10, #ffffff);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--neutral-100, #eceff2);
+  border-width: 1px;
+  padding: 24px 16px 24px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 300px;
+  position: relative;
+  box-shadow: 0px 0px 0px 2px rgba(236, 239, 242, 0.3),
+    4px 6px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.anima-o-prova-social-property-11 .content5 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 268px;
+  height: 46px;
+  position: relative;
+}
+.text-2-span {
+  color: var(--neutral-500, #4f627a);
+  font-family: "Inter-Regular", sans-serif;
+}
+.text-2-span2 {
+  color: var(--neutral-900, #212730);
+  font-family: "Inter-Medium", sans-serif;
+  font-weight: 500;
+}
+.anima-o-prova-social-property-11 .tag {
+  flex-shrink: 0;
+  width: 79px;
+  height: 45px;
+  position: static;
+}
+.anima-o-prova-social-property-11 .mouse-figma {
+  width: 20px;
+  height: 23.24px;
+  position: absolute;
+  left: 245px;
+  top: 32px;
+  overflow: visible;
+  aspect-ratio: 20/23.24;
+}
+.anima-o-prova-social-property-11 .you {
+  background: var(--neutral-900, #212730);
+  border-radius: 2px;
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 21px;
+  position: absolute;
+  left: 260px;
+  top: 56px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.anima-o-prova-social-property-11 .user-name {
+  color: var(--neutral-10, #ffffff);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: relative;
+}

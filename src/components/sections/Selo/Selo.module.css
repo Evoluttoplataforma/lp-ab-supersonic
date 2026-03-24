@@ -1,0 +1,142 @@
+.selo {
+  padding: 0;
+  background: linear-gradient(270deg, rgba(255, 249, 243, 0) 0%, #fff9f3 100%), #fff9f3;
+  overflow: hidden;
+  position: relative;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  min-height: 609px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 80px 0 80px 120px;
+  max-width: 520px;
+}
+
+.title {
+  font-family: var(--font-family-heading);
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--support-default);
+  margin: 0;
+  line-height: 1.1;
+  font-style: italic;
+}
+
+.title strong {
+  font-weight: 800;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 400;
+  color: #4f627a;
+  margin: 0;
+  line-height: 150%;
+}
+
+.ctaRow {
+  margin-top: 8px;
+}
+
+/* Seal column */
+.sealCol {
+  position: relative;
+  height: 100%;
+  min-height: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sealImage {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Diagonal decorative lines */
+.diagonalLine1 {
+  position: absolute;
+  width: 1000px;
+  height: 13px;
+  background: linear-gradient(270deg, rgba(255, 225, 210, 1) 0%, rgba(255, 89, 37, 1) 100%);
+  border-radius: 34px;
+  transform: rotate(-27deg);
+  top: 30%;
+  left: -100px;
+  z-index: 1;
+  filter: blur(3px);
+}
+
+.diagonalLine2 {
+  position: absolute;
+  width: 1100px;
+  height: 15px;
+  background: linear-gradient(270deg, rgba(255, 89, 37, 1) 0%, rgba(255, 225, 210, 1) 100%);
+  border-radius: 72px;
+  transform: rotate(-27deg);
+  top: 45%;
+  left: -150px;
+  z-index: 1;
+}
+
+/* Floating badges */
+.floatingBadge1,
+.floatingBadge2 {
+  position: absolute;
+  background: #fefffe;
+  border-radius: 24px;
+  padding: 12px 20px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Barlow", var(--font-family-body);
+  font-size: 16px;
+  font-weight: 700;
+  color: #2a2b2b;
+  box-shadow: 0px 10px 30px rgba(62, 15, 21, 0.1);
+  white-space: nowrap;
+  z-index: 3;
+}
+
+.floatingBadge1 {
+  top: 20px;
+  right: 0;
+}
+
+.floatingBadge2 {
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-30%);
+}
+
+@media (max-width: 1024px) {
+  .grid { grid-template-columns: 1fr; }
+  .content { padding: 60px 40px; max-width: 100%; }
+  .sealCol { min-height: 350px; }
+  .diagonalLine1, .diagonalLine2 { display: none; }
+}
+
+@media (max-width: 768px) {
+  .selo { padding: 48px 24px; }
+  .grid { display: flex; flex-direction: column; gap: 32px; }
+  .content { padding: 0; max-width: 100%; }
+  .title { font-size: 32px; }
+  .description { font-size: 14px; }
+  .sealCol { width: 100%; max-width: 320px; margin: 0 auto; min-height: auto; }
+  .sealImage { max-width: 300px; }
+  .floatingBadge1, .floatingBadge2 { font-size: 12px; padding: 8px 16px; height: 44px; }
+  .ctaRow { width: 100%; }
+}

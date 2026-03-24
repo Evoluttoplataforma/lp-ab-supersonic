@@ -1,0 +1,54 @@
+.button-dark-property-1-default,
+.button-dark-property-1-default * {
+  box-sizing: border-box;
+}
+.button-dark-property-1-default {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.button-dark-property-1-default .button-primary {
+  background: var(--neutral-900, #212730);
+  border-radius: var(--radius-12, 12px);
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  position: relative;
+  overflow: hidden;
+}
+.button-dark-property-1-default .arrow-right {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.button-dark-property-1-default .button-primary2 {
+  background: var(--neutral-900, #212730);
+  border-radius: var(--radius-12, 12px);
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 56px;
+  position: relative;
+  overflow: hidden;
+}
+.button-dark-property-1-default .texto-bot-o {
+  color: var(--neutral-10, #ffffff);
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.button-dark-property-1-default .button-primary3 {
+  display: none;
+}

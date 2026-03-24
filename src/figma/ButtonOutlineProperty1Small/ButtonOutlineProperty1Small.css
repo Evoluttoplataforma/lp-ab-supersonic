@@ -1,0 +1,49 @@
+.button-outline-property-1-small,
+.button-outline-property-1-small * {
+  box-sizing: border-box;
+}
+.button-outline-property-1-small {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.button-outline-property-1-small .icon-1 {
+  border-radius: var(--radius-8, 8px);
+  border: 1px solid var(--primary-500, #ff5724);
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+}
+.button-outline-property-1-small .arrow-right {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  overflow: visible;
+}
+.button-outline-property-1-small .button {
+  border-radius: var(--radius-8, 8px);
+  border: 1px solid var(--primary-500, #ff5724);
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 48px;
+  overflow: hidden;
+}
+.button-outline-property-1-small .texto-bot-o {
+  color: var(--primary-500, #ff5724);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+}

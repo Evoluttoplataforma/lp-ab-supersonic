@@ -1,0 +1,29 @@
+.links-property-1-default,
+.links-property-1-default * {
+  box-sizing: border-box;
+}
+.links-property-1-default {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.links-property-1-default .text {
+  color: var(--neutral-700, #384454);
+  text-align: left;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+}
+.links-property-1-default .arrow-drop-down {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+  aspect-ratio: 1;
+}

@@ -1,0 +1,287 @@
+/* ===========================
+   Depoimentos (Testimonials)
+   =========================== */
+
+.section {
+  padding: var(--spacing-80) var(--spacing-120);
+  background: var(--neutral-10);
+  overflow: hidden;
+}
+
+.grid {
+  display: flex;
+  gap: var(--spacing-24);
+  align-items: flex-start;
+}
+
+/* ---------- Left column ---------- */
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 378px;
+  gap: var(--spacing-24);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-24);
+}
+
+.title {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-32);
+  font-weight: var(--font-weight-bold);
+  line-height: 1.2;
+  color: var(--neutral-900);
+  margin: 0;
+}
+
+.titleHighlight {
+  color: var(--primary-500);
+}
+
+.subtitle {
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-18);
+  font-weight: var(--font-weight-regular);
+  color: var(--neutral-500);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ---------- Navigation arrows ---------- */
+
+.navDesktop {
+  display: flex;
+  gap: var(--spacing-24);
+}
+
+.navMobile {
+  display: none;
+  justify-content: center;
+  gap: var(--spacing-16);
+}
+
+.arrow {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-full);
+  border: none;
+  background: var(--neutral-900);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  color: var(--neutral-10);
+  flex-shrink: 0;
+}
+
+.arrow:hover {
+  background: var(--neutral-800);
+}
+
+/* ---------- Right column / Carousel ---------- */
+
+.right {
+  flex: 1;
+  min-width: 0;
+}
+
+.carousel {
+  display: flex;
+  gap: var(--spacing-24);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+/* ---------- Testimonial cards ---------- */
+
+.card {
+  min-width: 386px;
+  width: 386px;
+  height: 534px;
+  background: var(--neutral-10);
+  border: 2px solid var(--neutral-100);
+  border-radius: var(--radius-24);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+
+.cardVideo {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  border-radius: 16px 16px 0 0;
+}
+
+.cardVideo iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 350px;
+  border: none;
+  border-radius: 16px 16px 0 0;
+}
+
+.cardImage {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.cardImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardText {
+  flex: 1;
+  padding: var(--spacing-32);
+  display: flex;
+  align-items: flex-start;
+}
+
+.testimonialText {
+  font-family: "Barlow", var(--font-family-body);
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-regular);
+  color: #2a2b2b;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.cardFooter {
+  padding: var(--spacing-20) var(--spacing-32);
+  border-top: 2px solid var(--neutral-100);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4);
+}
+
+.userName {
+  font-family: "Manrope", sans-serif;
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-bold);
+  color: var(--neutral-900);
+}
+
+.userCompany {
+  font-family: "Manrope", sans-serif;
+  font-size: var(--font-size-14);
+  font-weight: var(--font-weight-bold);
+  color: var(--neutral-500);
+  opacity: 0.6;
+}
+
+/* ===========================
+   Tablet (<=1024px)
+   =========================== */
+
+@media (max-width: 1024px) {
+  .section {
+    padding: var(--spacing-64) var(--spacing-48);
+  }
+
+  .grid {
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .navDesktop {
+    flex-shrink: 0;
+  }
+}
+
+/* ===========================
+   Mobile (<=768px)
+   =========================== */
+
+@media (max-width: 768px) {
+  .section {
+    padding: var(--spacing-48) var(--spacing-24);
+  }
+
+  .grid {
+    flex-direction: column;
+    gap: var(--spacing-24);
+  }
+
+  .left {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .title {
+    font-size: var(--font-size-24);
+  }
+
+  .subtitle {
+    font-size: var(--font-size-16);
+  }
+
+  .navDesktop {
+    display: none;
+  }
+
+  .navMobile {
+    display: flex;
+  }
+
+  .arrow {
+    width: 48px;
+    height: 48px;
+  }
+
+  /* Mobile cards */
+  .card {
+    min-width: 255px;
+    width: 255px;
+    height: 253px;
+    border-radius: var(--radius-16);
+  }
+
+  .carousel {
+    gap: var(--spacing-16);
+  }
+
+  .cardText {
+    padding: var(--spacing-24) var(--spacing-16);
+  }
+
+  .testimonialText {
+    font-size: 13px;
+  }
+
+  .cardFooter {
+    padding: var(--spacing-16);
+  }
+
+  .userName {
+    font-size: 13px;
+  }
+
+  .userCompany {
+    font-size: 13px;
+  }
+}

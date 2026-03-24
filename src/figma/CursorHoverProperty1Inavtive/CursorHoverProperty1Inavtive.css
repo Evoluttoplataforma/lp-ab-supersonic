@@ -1,0 +1,39 @@
+.cursor-hover-property-1-inavtive,
+.cursor-hover-property-1-inavtive * {
+  box-sizing: border-box;
+}
+.cursor-hover-property-1-inavtive {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.cursor-hover-property-1-inavtive .ellipse-185 {
+  background: linear-gradient(
+    90deg,
+    rgba(238, 9, 121, 1) 0%,
+    rgba(255, 106, 0, 1) 100%
+  );
+  border-radius: 50%;
+  opacity: 0;
+  width: 72px;
+  height: 72px;
+  position: absolute;
+  left: -16px;
+  top: -16px;
+  filter: blur(75.05px);
+}
+.cursor-hover-property-1-inavtive .ellipse-186 {
+  background: linear-gradient(
+    90deg,
+    rgba(238, 9, 121, 1) 0%,
+    rgba(255, 106, 0, 1) 100%
+  );
+  border-radius: 50%;
+  opacity: 0;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  filter: blur(35px);
+}

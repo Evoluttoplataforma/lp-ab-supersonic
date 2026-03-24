@@ -1,0 +1,142 @@
+:root {
+  /* =========================
+   Colors
+========================= */
+
+  --primary-50: #fff4edff;
+  --primary-100: #ffe5d4ff;
+  --primary-200: #ffc8a8ff;
+  --primary-300: #ffa170ff;
+  --primary-400: #ff6e37ff;
+  --primary-500: #ff5724ff;
+  --primary-600: #f02d06ff;
+  --primary-700: #c71d07ff;
+  --primary-800: #9e190eff;
+  --primary-900: #7f180fff;
+
+  --support-default: #200801ff;
+  --support-background: #fff9f3ff;
+  --support-text: #200801cc;
+  --support-badge: #2008010d;
+
+  --neutral-10: #ffffffff;
+  --neutral-50: #f6f7f9ff;
+  --neutral-100: #eceff2ff;
+  --neutral-200: #d4dbe3ff;
+  --neutral-300: #aebbcbff;
+  --neutral-400: #8397adff;
+  --neutral-500: #4f627aff;
+  --neutral-600: #415063ff;
+  --neutral-700: #384454ff;
+  --neutral-800: #2c343fff;
+  --neutral-900: #212730ff;
+
+  /* feedback */
+
+  --feedback-success-pure: #008236ff;
+  --feedback-success-light: #f0fdf4ff;
+
+  --feedback-warning-pure: #d08700ff;
+  --feedback-warning-light: #fefce8ff;
+
+  --feedback-danger-pure: #e7000bff;
+  --feedback-danger-light: #fff0f2ff;
+
+  --feedback-info-pure: #155dfcff;
+  --feedback-info-light: #eff6ffff;
+
+  /* =========================
+   Typography
+========================= */
+
+  --font-family-heading: "Plus Jakarta Sans", sans-serif;
+  --font-family-body: "Inter", sans-serif;
+
+  --font-weight-thin: 100;
+  --font-weight-extra-light: 200;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+  --font-weight-black: 900;
+
+  --font-size-12: 12px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+  --font-size-24: 24px;
+  --font-size-32: 32px;
+  --font-size-40: 40px;
+  --font-size-48: 48px;
+  --font-size-56: 56px;
+  --font-size-64: 64px;
+  --font-size-72: 72px;
+  --font-size-80: 80px;
+
+  /* =========================
+   Spacing
+========================= */
+
+  --spacing-none: 0px;
+
+  --spacing-1: 1px;
+  --spacing-2: 2px;
+  --spacing-4: 4px;
+  --spacing-6: 6px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-14: 14px;
+  --spacing-16: 16px;
+  --spacing-18: 18px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-26: 26px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-36: 36px;
+  --spacing-40: 40px;
+  --spacing-44: 44px;
+  --spacing-48: 48px;
+
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-72: 72px;
+  --spacing-80: 80px;
+  --spacing-88: 88px;
+  --spacing-96: 96px;
+  --spacing-104: 104px;
+  --spacing-112: 112px;
+  --spacing-120: 120px;
+  --spacing-128: 128px;
+
+  --spacing-144: 144px;
+  --spacing-160: 160px;
+  --spacing-192: 192px;
+  --spacing-208: 208px;
+  --spacing-224: 224px;
+  --spacing-256: 256px;
+  --spacing-288: 288px;
+  --spacing-320: 320px;
+  --spacing-384: 384px;
+
+  /* =========================
+   Radius
+========================= */
+
+  --radius-none: 0px;
+
+  --radius-2: 2px;
+  --radius-4: 4px;
+  --radius-6: 6px;
+  --radius-8: 8px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-20: 20px;
+  --radius-24: 24px;
+  --radius-32: 32px;
+
+  --radius-full: 999px;
+}

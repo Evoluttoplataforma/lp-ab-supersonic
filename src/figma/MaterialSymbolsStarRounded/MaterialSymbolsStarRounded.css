@@ -1,0 +1,11 @@
+.material-symbols-star-rounded,
+.material-symbols-star-rounded * {
+  box-sizing: border-box;
+}
+.material-symbols-star-rounded {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
