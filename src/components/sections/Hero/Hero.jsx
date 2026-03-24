@@ -32,7 +32,7 @@ export default function Hero({ id, data = {} }) {
           {/* Left Column */}
           <div className={styles.content}>
             <div className={styles.topBlock}>
-              {badge.label && <Badge icon={badge.icon} label={badge.label} />}
+              {badge.label && <div style={{ display: 'inline-block', width: 'fit-content' }}><Badge icon={badge.icon} label={badge.label} /></div>}
               <h1 className={styles.headline}>
                 {headline}
                 {highlightText && (
