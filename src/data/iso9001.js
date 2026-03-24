@@ -12,8 +12,8 @@ export const iso9001Data = {
   hero: {
     badge: { icon: 'trophy', label: 'A CONSULTORIA DIGITAL Nº 1 DO BRASIL' },
     headline: 'Implemente a ',
-    highlightText: 'ISO 9001',
-    subHeadline: ' ou receba 200% do seu investimento de volta',
+    highlightText: 'ISO 9001 ou receba 200%',
+    subHeadline: ' do seu investimento de volta',
     checklist: [
       'Conquiste sua certificação em até 90 dias.',
       'Planos a partir de R$ 2.500/mês com o Orbit, nosso software com IA que padroniza processos, indica não conformidades e muito mais.',
