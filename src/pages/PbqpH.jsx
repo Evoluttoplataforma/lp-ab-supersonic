@@ -27,7 +27,7 @@ export default function PbqpH() {
 
   return (
     <>
-      <Navbar />
+      <Navbar ctaHref="#tally-open=woJR7e&tally-layout=modal&tally-hide-title=1" />
       <main>
         <HeroSection data={data.hero} />
         <BigNumbersSection data={data.bigNumbers} />

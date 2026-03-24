@@ -26,7 +26,7 @@ export default function Iso9001() {
 
   return (
     <>
-      <Navbar />
+      <Navbar ctaHref="#tally-open=wbaev2&tally-layout=modal&tally-hide-title=1" />
       <main>
         <HeroSection data={data.hero} />
         <BigNumbersSection data={data.bigNumbers} />

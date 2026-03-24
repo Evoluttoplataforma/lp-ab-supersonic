@@ -18,7 +18,7 @@ export const pbqphData = {
       'Acesse financiamentos da Caixa Econômica Federal.',
     ],
     cta: 'Fale com especialista',
-    ctaHref: '#contato',
+    ctaHref: '#tally-open=woJR7e&tally-layout=modal&tally-hide-title=1',
     image: '/assets/images/img-hero.png',
     floatingCard: 'Mais de 174 clientes satisfeitos, nota média 4,9/5',
     socialProof: { rating: '4,9', reviewCount: '+174 reviews' },
@@ -56,7 +56,7 @@ export const pbqphData = {
           'Reduza até 85% dos erros operacionais centralizando tarefas, prazos e indicadores da sua construtora.',
         ],
         cta: 'Fale com especialista',
-        ctaHref: '#contato',
+        ctaHref: '#tally-open=woJR7e&tally-layout=modal&tally-hide-title=1',
         motion: '/assets/motions/PBQP-H-01.webm',
         motionFallback: '/assets/motions/PBQP-H-01.gif',
       },
@@ -68,7 +68,7 @@ export const pbqphData = {
           'Garanta financiamentos desde o início, com os documentos de certificação em dia.',
         ],
         cta: 'Fale com especialista',
-        ctaHref: '#contato',
+        ctaHref: '#tally-open=woJR7e&tally-layout=modal&tally-hide-title=1',
         motion: '/assets/motions/PBQP-H-02.webm',
         motionFallback: '/assets/motions/PBQP-H-02.gif',
       },
@@ -81,7 +81,7 @@ export const pbqphData = {
           'Acompanhamento técnico disponível das 9h às 17h, em dias úteis.',
         ],
         cta: 'Fale com especialista',
-        ctaHref: '#contato',
+        ctaHref: '#tally-open=woJR7e&tally-layout=modal&tally-hide-title=1',
         motion: '/assets/motions/PBQP-H-03.webm',
         motionFallback: '/assets/motions/PBQP-H-03.gif',
       },
@@ -93,7 +93,7 @@ export const pbqphData = {
           'Elaboramos manuais e documentos, incluindo PQO e registros de materiais, garantindo conformidade.',
         ],
         cta: 'Fale com especialista',
-        ctaHref: '#contato',
+        ctaHref: '#tally-open=woJR7e&tally-layout=modal&tally-hide-title=1',
         motion: '/assets/motions/PBQP-H-04.webm',
         motionFallback: '/assets/motions/PBQP-H-04.gif',
       },
@@ -111,7 +111,7 @@ export const pbqphData = {
     titleLine4: 'de volta',
     description: 'Somos a única consultoria no Brasil que devolve 200% do seu investimento se você não obtiver a certificação.',
     cta: 'Fale com especialista',
-    ctaHref: '#contato',
+    ctaHref: '#tally-open=woJR7e&tally-layout=modal&tally-hide-title=1',
   },
 
   speed: {
@@ -123,7 +123,7 @@ export const pbqphData = {
       'Automatize o preenchimento de documentos em minutos com o Orbit e economize até 40% do seu tempo.',
     ],
     cta: 'Fale com especialista',
-    ctaHref: '#contato',
+    ctaHref: '#tally-open=woJR7e&tally-layout=modal&tally-hide-title=1',
   },
 
   validation: {
@@ -159,7 +159,7 @@ export const pbqphData = {
     title: 'Selo Reconhecido Pelo Mercado',
     description: 'Enquanto você implementa o PBQP-H, emitimos um selo e uma declaração para comprovar ao mercado o status da implantação, mantendo contratos e oportunidades ativas.',
     cta: 'Fale com especialista',
-    ctaHref: '#contato',
+    ctaHref: '#tally-open=woJR7e&tally-layout=modal&tally-hide-title=1',
   },
 
   depoimentos: {
@@ -221,7 +221,7 @@ export const pbqphData = {
     titleSuffix: ' no Brasil, Portugal e Africa.',
     description: 'Sistemas de gestão da qualidade para empresas dos mais diversos ramos de atividade e tamanho.',
     cta: 'Fale com especialista',
-    ctaHref: '#contato',
+    ctaHref: '#tally-open=woJR7e&tally-layout=modal&tally-hide-title=1',
     mapTitle: '+DE 8.000 CONTRATOS',
     mapSubtitle: 'EM TODO TERRITÓRIO NACIONAL',
     countries: ['BRASIL', 'MOÇAMBIQUE', 'PORTUGAL', 'ANGOLA'],
@@ -253,7 +253,7 @@ export const pbqphData = {
       'Do diagnóstico à auditoria externa, acompanhamos cada fase do processo.',
     ],
     cta: 'Fale com especialista',
-    ctaHref: '#contato',
+    ctaHref: '#tally-open=woJR7e&tally-layout=modal&tally-hide-title=1',
   },
 
   faq: {
@@ -278,7 +278,7 @@ export const pbqphData = {
     title: 'Construa o futuro da sua empresa com a consultoria PBQP-H.',
     subtitle: 'Pare agora de perder negócios por falta do PBQP-H',
     cta: 'Fale com especialista',
-    ctaHref: '#contato',
+    ctaHref: '#tally-open=woJR7e&tally-layout=modal&tally-hide-title=1',
     image: '/assets/figma/image-wrapper-rectangle-76-w-5-lk-qta-j-nvbiphh-ainr-4-c-d-sp-qm-i-jpg0.png',
   },
 }

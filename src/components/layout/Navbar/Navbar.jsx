@@ -49,10 +49,6 @@ export default function Navbar({ ctaHref = '#contato' }) {
               href={ctaHref}
               variant="outline"
               size="sm"
-              onClick={(e) => {
-                e.preventDefault()
-                scrollToSection('contato')
-              }}
             >
               Fale com especialista
             </Button>
