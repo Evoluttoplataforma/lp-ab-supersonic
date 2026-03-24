@@ -24,7 +24,7 @@ export default function WhyChoose({ id, data = {} }) {
                   </span>
                 </div>
               )}
-              <p className={styles.cardText}>{card.text}</p>
+              <p className={styles.cardText} dangerouslySetInnerHTML={{ __html: card.text }} />
             </div>
           ))}
         </div>
