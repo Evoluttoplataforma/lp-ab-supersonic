@@ -303,7 +303,7 @@ export const iso9001Data = {
 
   ctaDark: {
     badge: { icon: 'check_circle', label: 'GARANTIA DE CERTIFICAÇÃO OU SEU DINHEIRO DE VOLTA EM DOBRO' },
-    title: 'Certifique sua empresa com a ISO 9001 e receba 200% do valor investido de volta',
+    title: 'Certifique sua empresa com a ISO 9001 ou receba 200% do valor investido de volta',
     checklist: [
       'Planos a partir de R$ 1.500/mês com o Orbit, nosso software com IA',
       'Consultoria 100% digital com especialistas em certificação ISO',
