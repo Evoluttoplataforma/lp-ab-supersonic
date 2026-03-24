@@ -30,9 +30,13 @@ export default function Reasons({ id, data = {} }) {
             {cards.map((card, i) => (
               <div key={i} className={styles.card}>
                 <div className={styles.cardIcon}>
-                  <span className="material-icons-outlined" style={{ fontSize: 28, color: 'var(--primary-500)' }}>
-                    {card.icon || 'star'}
-                  </span>
+                  {card.icon && card.icon.startsWith('/') ? (
+                    <img src={card.icon} alt="" width="64" height="64" />
+                  ) : (
+                    <span className="material-icons-outlined" style={{ fontSize: 28, color: 'var(--primary-500)' }}>
+                      {card.icon || 'star'}
+                    </span>
+                  )}
                 </div>
                 <div>
                   <h3 className={styles.cardTitle}>{card.title}</h3>

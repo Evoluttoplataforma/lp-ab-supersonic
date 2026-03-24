@@ -149,9 +149,9 @@ export const pbqphData = {
     titleHighlight: 'construtora!',
     image: '/assets/figma/img-orbit1.png',
     cards: [
-      { icon: 'building', title: 'Construa com o dinheiro da Caixa', description: 'Com a certificação, sua empresa fica apta a participar de programas habitacionais e acessar financiamentos que só aceitam construtoras qualificadas.' },
-      { icon: 'efficiency', title: 'Redução de custos e aumento da eficiência', description: 'O PBQP-H organiza processos, corta desperdícios e retrabalhos, deixando sua obra mais produtiva e lucrativa.' },
-      { icon: 'geric', title: 'Abrir portas para o Geric da Caixa', description: 'A certificação abre portas para novos contratos, aumenta sua credibilidade no mercado e acelera o crescimento com a ajuda dos recursos da Caixa Federal.' },
+      { icon: '/assets/figma/casa-com-maquina-w-9-h-3-pv-hyocf-7-u-xk-bpi-sk-662-ya-l-4-jpg-vectorized0.svg', title: 'Construa com o dinheiro da Caixa', description: 'Com a certificação, sua empresa fica apta a participar de programas habitacionais e acessar financiamentos que só aceitam construtoras qualificadas.' },
+      { icon: '/assets/figma/casa-com-maquina-w-9-h-3-pv-hyocf-7-u-xk-bpi-sk-662-ya-l-4-jpg-vectorized1.svg', title: 'Redução de custos e aumento da eficiência', description: 'O PBQP-H organiza processos, corta desperdícios e retrabalhos, deixando sua obra mais produtiva e lucrativa.' },
+      { icon: '/assets/figma/casa-com-maquina-w-9-h-3-pv-hyocf-7-u-xk-bpi-sk-662-ya-l-4-jpg-vectorized2.svg', title: 'Abrir portas para o Geric da Caixa', description: 'A certificação abre portas para novos contratos, aumenta sua credibilidade no mercado e acelera o crescimento com a ajuda dos recursos da Caixa Federal.' },
     ],
   },
 
