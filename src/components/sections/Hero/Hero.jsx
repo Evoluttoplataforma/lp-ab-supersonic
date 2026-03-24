@@ -111,6 +111,8 @@ export default function Hero({ id, data = {} }) {
                 src={image}
                 alt="Profissional Templum"
                 className={styles.heroImage}
+                fetchpriority="high"
+                decoding="async"
               />
             )}
 

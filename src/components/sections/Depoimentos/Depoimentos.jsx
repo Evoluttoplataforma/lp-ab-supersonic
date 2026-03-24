@@ -1,6 +1,69 @@
-import { useRef } from 'react'
+import { useRef, useState, useCallback } from 'react'
 import Badge from '../../ui/Badge'
 import styles from './Depoimentos.module.css'
+
+/**
+ * Extract YouTube video ID from an embed URL.
+ * Handles patterns like:
+ *   https://www.youtube.com/embed/VIDEO_ID
+ *   https://www.youtube.com/embed/VIDEO_ID?...
+ */
+function extractVideoId(embedUrl) {
+  if (!embedUrl) return null
+  const match = embedUrl.match(/\/embed\/([a-zA-Z0-9_-]+)/)
+  return match ? match[1] : null
+}
+
+function YouTubeFacade({ embedUrl, title }) {
+  const [playing, setPlaying] = useState(false)
+  const videoId = extractVideoId(embedUrl)
+
+  const handlePlay = useCallback(() => {
+    setPlaying(true)
+  }, [])
+
+  if (playing || !videoId) {
+    // Fallback: show the actual iframe (autoplay after click, or if we cannot parse the ID)
+    const src = videoId
+      ? `${embedUrl}${embedUrl.includes('?') ? '&' : '?'}autoplay=1`
+      : embedUrl
+    return (
+      <iframe
+        src={src}
+        title={title}
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      />
+    )
+  }
+
+  return (
+    <button
+      type="button"
+      className={styles.videoFacade}
+      onClick={handlePlay}
+      aria-label={`Reproduzir ${title}`}
+    >
+      <img
+        src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
+        alt={title}
+        className={styles.videoThumb}
+        loading="lazy"
+        decoding="async"
+      />
+      <span className={styles.playButton} aria-hidden="true">
+        <svg width="68" height="48" viewBox="0 0 68 48">
+          <path
+            d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55C3.97 2.33 2.27 4.81 1.48 7.74.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z"
+            fill="red"
+          />
+          <path d="M45 24L27 14v20" fill="white" />
+        </svg>
+      </span>
+    </button>
+  )
+}
 
 export default function Depoimentos({ id, data = {} }) {
   const { badge = {}, title = '', titleHighlight = '', subtitle = '', items = [], cases = [] } = data
@@ -50,17 +113,14 @@ export default function Depoimentos({ id, data = {} }) {
               <div key={i} className={styles.card}>
                 {item.video ? (
                   <div className={styles.cardVideo}>
-                    <iframe
-                      src={item.video}
+                    <YouTubeFacade
+                      embedUrl={item.video}
                       title={`Depoimento ${item.company || ''}`}
-                      frameBorder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
                     />
                   </div>
                 ) : item.image ? (
                   <div className={styles.cardImage}>
-                    <img src={item.image} alt={`Depoimento de ${item.name}`} loading="lazy" />
+                    <img src={item.image} alt={`Depoimento de ${item.name}`} loading="lazy" decoding="async" />
                   </div>
                 ) : item.text ? (
                   <div className={styles.cardText}>
