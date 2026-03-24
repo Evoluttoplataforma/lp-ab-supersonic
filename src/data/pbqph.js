@@ -10,8 +10,8 @@ export const pbqphData = {
   hero: {
     badge: { icon: '💡', label: 'A CONSULTORIA DIGITAL Nº 1 DO BRASIL' },
     headline: 'Certifique sua construtora no ',
-    highlightText: 'PBQP-H',
-    subHeadline: ' ou receba 200% do valor investido de volta',
+    highlightText: 'PBQP-H ou receba 200%',
+    subHeadline: ' do valor investido de volta',
     checklist: [
       'Conquiste sua certificação em até 40 dias.',
       'Planos a partir de R$ 1.500/mês com o Orbit, nosso software com IA que padroniza processos, indica não conformidades e muito mais.',
