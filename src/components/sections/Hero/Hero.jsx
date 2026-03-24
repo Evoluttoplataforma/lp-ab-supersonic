@@ -126,17 +126,21 @@ export default function Hero({ id, data = {} }) {
                   <path id="sealTextPath" d="M100,100 m-72,0 a72,72 0 1,1 144,0 a72,72 0 1,1 -144,0" />
                 </defs>
                 <circle cx="100" cy="100" r="96" fill="white" filter="url(#sealShadow)" />
-                <circle cx="100" cy="100" r="60" fill="none" stroke="var(--neutral-300)" strokeWidth="1.5" strokeDasharray="4 3" opacity="0.33" />
-                <text fontSize="14" fontWeight="600" fontFamily="Inter, sans-serif" fill="var(--support-default)" letterSpacing="2">
+                <circle cx="100" cy="100" r="58" fill="none" stroke="#AEBBCB" strokeWidth="1.5" strokeDasharray="4 3" opacity="0.33" />
+                <text fontSize="13" fontWeight="600" fontFamily="Inter, sans-serif" fill="#200801" letterSpacing="1.5">
                   <textPath href="#sealTextPath" startOffset="0%">
-                    GARANTIDOS • MENOS CUSTO • CONTRATOS E FINANCIAMENTOS •
+                    FINANCIAMENTOS  GARANTIDOS • MENOS CUSTO • CONTRATOS E
                   </textPath>
                 </text>
-                {/* Center stars */}
-                <path d="M100 80l4-8 4 8-8 0z" fill="var(--primary-500)" transform="rotate(45,100,80)" />
-                <path d="M90 95l3-6 3 6-6 0z" fill="var(--primary-500)" transform="rotate(45,90,95)" />
-                <path d="M110 95l3-6 3 6-6 0z" fill="var(--primary-500)" transform="rotate(45,110,95)" />
-                <path d="M100 105l4-8 4 8-8 0z" fill="var(--primary-500)" transform="rotate(45,100,105)" />
+                {/* 4-pointed stars in center */}
+                <path d="M100 82 L103 94 L100 88 L97 94 Z" fill="#FF5724" />
+                <path d="M100 82 L106 88 L100 88 L94 88 Z" fill="#FF5724" />
+                <path d="M88 98 L91 108 L88 103 L85 108 Z" fill="#FF5724" />
+                <path d="M88 98 L93 103 L88 103 L83 103 Z" fill="#FF5724" />
+                <path d="M112 98 L115 108 L112 103 L109 108 Z" fill="#FF5724" />
+                <path d="M112 98 L117 103 L112 103 L107 103 Z" fill="#FF5724" />
+                <path d="M100 108 L103 118 L100 113 L97 118 Z" fill="#FF5724" />
+                <path d="M100 108 L106 113 L100 113 L94 113 Z" fill="#FF5724" />
               </svg>
             </div>
 
