@@ -118,23 +118,25 @@ export default function Hero({ id, data = {} }) {
 
             {/* Spinning Seal */}
             <div className={styles.seal}>
-              <svg viewBox="0 0 120 120" className={styles.sealSvg}>
-                <circle cx="60" cy="60" r="58" fill="white" filter="url(#sealShadow)" />
+              <svg viewBox="0 0 200 200" className={styles.sealSvg}>
                 <defs>
                   <filter id="sealShadow">
                     <feDropShadow dx="0" dy="4" stdDeviation="8" floodOpacity="0.12" />
                   </filter>
-                  <path id="sealCircle" d="M60,60 m-42,0 a42,42 0 1,1 84,0 a42,42 0 1,1 -84,0" />
+                  <path id="sealTextPath" d="M100,100 m-72,0 a72,72 0 1,1 144,0 a72,72 0 1,1 -144,0" />
                 </defs>
-                <circle cx="60" cy="60" r="36" fill="none" stroke="var(--neutral-300)" strokeWidth="1.5" strokeDasharray="4 3" opacity="0.33" />
-                <text fontSize="9" fontWeight="600" fill="var(--support-default)">
-                  <textPath href="#sealCircle" startOffset="0%">
-                    FINANCIAMENTOS • GARANTIDOS • MENOS CUSTO • CONTRATOS •
+                <circle cx="100" cy="100" r="96" fill="white" filter="url(#sealShadow)" />
+                <circle cx="100" cy="100" r="60" fill="none" stroke="var(--neutral-300)" strokeWidth="1.5" strokeDasharray="4 3" opacity="0.33" />
+                <text fontSize="14" fontWeight="600" fontFamily="Inter, sans-serif" fill="var(--support-default)" letterSpacing="2">
+                  <textPath href="#sealTextPath" startOffset="0%">
+                    GARANTIDOS • MENOS CUSTO • CONTRATOS E FINANCIAMENTOS •
                   </textPath>
                 </text>
-                <path d="M55 55l5-5 5 5-5 5z" fill="var(--primary-500)" transform="translate(0,-4)" />
-                <path d="M55 55l5-5 5 5-5 5z" fill="var(--primary-500)" transform="translate(4,0) scale(0.6)" />
-                <path d="M55 55l5-5 5 5-5 5z" fill="var(--primary-500)" transform="translate(-2,2) scale(0.4)" />
+                {/* Center stars */}
+                <path d="M100 80l4-8 4 8-8 0z" fill="var(--primary-500)" transform="rotate(45,100,80)" />
+                <path d="M90 95l3-6 3 6-6 0z" fill="var(--primary-500)" transform="rotate(45,90,95)" />
+                <path d="M110 95l3-6 3 6-6 0z" fill="var(--primary-500)" transform="rotate(45,110,95)" />
+                <path d="M100 105l4-8 4 8-8 0z" fill="var(--primary-500)" transform="rotate(45,100,105)" />
               </svg>
             </div>
 
