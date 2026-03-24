@@ -121,12 +121,12 @@
 
 @media (max-width: 768px) {
   .ctaFinal { padding: var(--spacing-48) var(--spacing-24); }
-  .withImage { min-height: 400px; }
+  .withImage { min-height: 350px; }
   .rounded { margin: 0 24px 48px; border-radius: 16px; }
-  .title { font-size: var(--font-size-32); letter-spacing: -0.06em; }
-  .subtitle { font-size: var(--font-size-16); }
+  .title { font-size: var(--font-size-24); letter-spacing: -0.06em; }
+  .subtitle { font-size: var(--font-size-14); }
   .checkItem { font-size: var(--font-size-14); }
   .grid { flex-direction: column; gap: 0; }
-  .grid .imageCol { width: 100%; height: 300px; }
-  .grid .textCol { margin-left: 0; margin-top: -40px; border-radius: 16px; padding: 40px 24px; }
+  .grid .imageCol { width: 100%; height: 240px; border-radius: 16px 16px 0 0; overflow: hidden; }
+  .grid .textCol { margin-left: 0; margin-top: 0; border-radius: 0 0 16px 16px; padding: 32px 24px; }
 }
