@@ -288,16 +288,24 @@
     height: 48px;
   }
 
+  .right {
+    width: 100%;
+    overflow: visible;
+  }
+
+  .carousel {
+    gap: var(--spacing-16);
+    scroll-padding: 0 24px;
+    padding-bottom: 8px;
+  }
+
   /* Mobile cards */
   .card {
     min-width: 255px;
     width: 255px;
     height: 253px;
     border-radius: var(--radius-16);
-  }
-
-  .carousel {
-    gap: var(--spacing-16);
+    scroll-snap-align: start;
   }
 
   .cardText {
