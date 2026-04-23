@@ -7,6 +7,8 @@ export default function Coverage({ id, data = {} }) {
   const {
     badge = {},
     title = '',
+    titleHighlight = '',
+    titleSuffix = '',
     description = '',
     cta = '',
     ctaHref = '#contato',
@@ -20,7 +22,13 @@ export default function Coverage({ id, data = {} }) {
           {/* Left Column - Text */}
           <div className={styles.content}>
             {badge.label && <Badge icon={badge.icon} label={badge.label} />}
-            {title && <h2 className={styles.title}>{title}</h2>}
+            {(title || titleHighlight || titleSuffix) && (
+              <h2 className={styles.title}>
+                {title}
+                {titleHighlight && <span className={styles.titleHighlight}>{titleHighlight}</span>}
+                {titleSuffix}
+              </h2>
+            )}
             {description && <p className={styles.description}>{description}</p>}
             {cta && (
               <div className={styles.ctaRow}>

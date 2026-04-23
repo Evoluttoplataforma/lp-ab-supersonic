@@ -62,9 +62,13 @@
 }
 
 .chevron {
-  font-size: var(--font-size-18);
-  color: var(--neutral-400);
+  color: var(--neutral-500);
   flex-shrink: 0;
+  transition: transform 0.2s ease;
+}
+
+.open .chevron {
+  transform: rotate(180deg);
 }
 
 .answer {

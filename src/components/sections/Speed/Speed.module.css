@@ -24,14 +24,22 @@
   font-family: var(--font-family-heading);
   font-size: 32px;
   font-weight: 700;
-  line-height: 120%;
+  line-height: 130%;
   color: var(--support-default);
   margin: 0;
-  max-width: 510px;
+  max-width: 440px;
+  letter-spacing: -0.02em;
 }
 
 .highlight {
   color: var(--primary-500);
+  font-weight: 800;
+  background: var(--primary-50);
+  padding: 0 8px;
+  border-radius: 8px;
+  margin-left: 4px;
+  display: inline-block;
+  line-height: 1.15;
 }
 
 .checklist {
@@ -63,64 +71,18 @@
   padding-right: 48px;
 }
 
-.screenshotPlaceholder {
-  width: 550px;
+.screenshot {
+  width: 100%;
+  max-width: 620px;
+  height: auto;
+  display: block;
   border-radius: 16px;
-  overflow: hidden;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
-}
-
-.screenshotUI {
-  display: flex;
-  background: white;
-  min-height: 400px;
-  font-size: var(--font-size-12);
-}
-
-.uiSidebar {
-  width: 180px;
-  border-right: 1px solid var(--neutral-100);
-  padding: var(--spacing-16);
-  flex-shrink: 0;
-}
-
-.uiTitle {
-  font-weight: var(--font-weight-semibold);
-  margin-bottom: var(--spacing-12);
-  font-size: var(--font-size-14);
-}
-
-.uiMenuItem {
-  padding: var(--spacing-6) 0;
-  color: var(--neutral-500);
-}
-
-.uiMain {
-  padding: var(--spacing-24);
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-16);
-}
-
-.uiWelcome {
-  font-size: var(--font-size-18);
-  font-weight: var(--font-weight-bold);
-  color: var(--support-default);
-}
-
-.uiCard {
-  background: var(--neutral-50);
-  border: 1px solid var(--neutral-100);
-  border-radius: var(--radius-8);
-  padding: var(--spacing-16);
-  font-weight: var(--font-weight-semibold);
-  font-size: var(--font-size-14);
 }
 
 @media (max-width: 1024px) {
   .speed { padding: 64px 40px; }
-  .screenshotPlaceholder { width: 100%; }
+  .screenshot { max-width: 100%; }
 }
 
 @media (max-width: 768px) {
@@ -128,8 +90,5 @@
   .wrapper { grid-template-columns: 1fr; gap: 32px; padding: 24px 0; }
   .content { padding-left: 24px; padding-right: 24px; }
   .screenshotCol { padding-right: 24px; padding-left: 24px; }
-  .screenshotPlaceholder { width: 100%; }
   .title { font-size: 24px; }
-  .screenshotUI { min-height: 250px; }
-  .uiSidebar { width: 120px; padding: var(--spacing-8); }
 }

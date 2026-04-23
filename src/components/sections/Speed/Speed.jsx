@@ -4,7 +4,7 @@ import Button from '../../ui/Button'
 import styles from './Speed.module.css'
 
 export default function Speed({ id, data = {} }) {
-  const { badge = {}, title = '', titleHighlight = '', checklist = [], cta = '', ctaHref = '#contato' } = data
+  const { badge = {}, title = '', titleHighlight = '', checklist = [], cta = '', ctaHref = '#contato', image = '/assets/figma/_1920-w-default-10.png' } = data
 
   return (
     <section id={id} className={styles.speed}>
@@ -35,22 +35,7 @@ export default function Speed({ id, data = {} }) {
             )}
           </div>
           <div className={styles.screenshotCol}>
-            <div className={styles.screenshotPlaceholder}>
-              <div className={styles.screenshotUI}>
-                <div className={styles.uiSidebar}>
-                  <div className={styles.uiTitle}>Sua empresa</div>
-                  {['Tarefas', 'Estratégico', 'Departamentos', 'Processos', 'Pessoas', 'Pesquisas', 'Documentos', 'Problemas', 'Riscos', 'Oportunidades', 'Reuniões', 'Indicadores'].map((item) => (
-                    <div key={item} className={styles.uiMenuItem}>{item}</div>
-                  ))}
-                </div>
-                <div className={styles.uiMain}>
-                  <div className={styles.uiWelcome}>Olá, este é seu espaço</div>
-                  <div className={styles.uiCard}>Tarefas em Aberto</div>
-                  <div className={styles.uiCard}>Meus Indicadores</div>
-                  <div className={styles.uiCard}>Próximas Reuniões</div>
-                </div>
-              </div>
-            </div>
+            <img src={image} alt="Interface Orbit" className={styles.screenshot} />
           </div>
         </div>
       </Container>

@@ -19,7 +19,7 @@ export default function Process({ id, data = {} }) {
       <Container>
         {badge.label && (
           <div className={styles.badgeContainer}>
-            <Badge icon={badge.icon} label={badge.label} variant="light" />
+            <Badge icon={badge.icon} label={badge.label} variant="default" />
           </div>
         )}
         <h2 className={styles.title}>{title}</h2>
@@ -62,7 +62,14 @@ export default function Process({ id, data = {} }) {
 
               <div className={styles.videoContainer}>
                 {item.motion ? (
-                  <video className={styles.video} autoPlay loop muted playsInline>
+                  <video
+                    className={styles.video}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    onLoadedMetadata={(e) => { e.currentTarget.playbackRate = 0.7 }}
+                  >
                     <source src={item.motion} type="video/webm" />
                     {item.motionFallback && (
                       <img src={item.motionFallback} alt={item.title} className={styles.fallbackImage} />

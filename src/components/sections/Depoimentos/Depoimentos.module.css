@@ -33,11 +33,12 @@
 
 .title {
   font-family: var(--font-family-heading);
-  font-size: var(--font-size-32);
+  font-size: var(--font-size-40);
   font-weight: var(--font-weight-bold);
   line-height: 1.2;
-  color: var(--neutral-900);
+  color: var(--support-default);
   margin: 0;
+  letter-spacing: -0.02em;
 }
 
 .titleHighlight {
@@ -57,21 +58,21 @@
 
 .navDesktop {
   display: flex;
-  gap: var(--spacing-24);
+  gap: var(--spacing-12);
 }
 
 .navMobile {
   display: none;
   justify-content: center;
-  gap: var(--spacing-16);
+  gap: var(--spacing-12);
 }
 
 .arrow {
-  width: 48px;
-  height: 48px;
+  width: 56px;
+  height: 56px;
   border-radius: var(--radius-full);
   border: none;
-  background: var(--neutral-900);
+  background: var(--support-default);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -82,7 +83,7 @@
 }
 
 .arrow:hover {
-  background: var(--neutral-800);
+  background: var(--primary-500);
 }
 
 /* ---------- Right column / Carousel ---------- */
@@ -286,6 +287,10 @@
   .arrow {
     width: 48px;
     height: 48px;
+  }
+
+  .navMobile {
+    gap: var(--spacing-12);
   }
 
   .right {

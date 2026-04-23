@@ -16,7 +16,7 @@
   display: flex;
   flex-direction: column;
   gap: var(--spacing-24, 24px);
-  max-width: 403px;
+  max-width: 480px;
   flex-shrink: 0;
 }
 
@@ -27,6 +27,11 @@
   line-height: 120%;
   color: #2A2B2B;
   margin: 0;
+  text-wrap: balance;
+}
+
+.titleHighlight {
+  color: var(--primary-500);
 }
 
 .description {

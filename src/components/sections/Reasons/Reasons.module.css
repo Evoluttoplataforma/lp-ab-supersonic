@@ -24,41 +24,59 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 72px;
   align-items: center;
   background: #ffffff;
   border-radius: 24px;
-  padding: 48px 120px;
+  padding: 56px 80px;
 }
 
 .imageCol { position: relative; }
 
 .image {
-  width: 440px;
-  height: 440px;
-  border-radius: 12px;
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 1 / 1;
+  border-radius: 16px;
   object-fit: cover;
+  display: block;
   background: linear-gradient(135deg, rgba(255,110,55,0.18), rgba(255,110,55,0.05));
 }
 
 .imagePlaceholder {
-  width: 440px;
-  height: 440px;
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 1 / 1;
   background: linear-gradient(135deg, rgba(255,110,55,0.18), rgba(255,110,55,0.05));
-  border-radius: 12px;
+  border-radius: 16px;
 }
 
 .cardsCol {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-40);
+  gap: var(--spacing-32);
+  position: relative;
+}
+
+.cardsCol::before {
+  content: '';
+  position: absolute;
+  left: 45px;
+  top: 90px;
+  bottom: 90px;
+  width: 2px;
+  background: linear-gradient(to bottom, transparent, var(--neutral-100) 12%, var(--neutral-100) 88%, transparent);
+  z-index: 0;
 }
 
 .card {
   display: flex;
   gap: var(--spacing-20);
   align-items: flex-start;
+  position: relative;
+  z-index: 1;
+  background: #ffffff;
 }
 
 .cardIcon {
@@ -73,19 +91,21 @@
 
 .cardTitle {
   font-family: var(--font-family-heading);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   color: var(--support-default);
   margin: 0 0 var(--spacing-8) 0;
   line-height: 1.3;
+  letter-spacing: -0.01em;
 }
 
 .cardText {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   color: #4f627a;
   margin: 0;
-  line-height: 150%;
+  line-height: 160%;
+  max-width: 420px;
 }
 
 @media (max-width: 768px) {

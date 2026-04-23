@@ -10,13 +10,12 @@ export default function Reasons({ id, data = {} }) {
       <Container>
         {badge.label && (
           <div className={styles.badgeContainer}>
-            <Badge icon={badge.icon} label={badge.label} variant="primary" />
+            <Badge icon={badge.icon} label={badge.label} />
           </div>
         )}
         <h2 className={styles.title}>
           {title}
-          {titleHighlight && <span className={styles.highlight}> {titleHighlight}</span>}
-          {title && !titleHighlight ? '' : ' da sua empresa'}
+          {titleHighlight && <span className={styles.highlight}>{titleHighlight}</span>}
         </h2>
         <div className={styles.grid}>
           <div className={styles.imageCol}>

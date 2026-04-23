@@ -19,23 +19,26 @@ export default function Steps({ id, data = {} }) {
         </p>
 
         <div className={styles.grid}>
-          {steps.map((step, i) => (
-            <div key={i} className={styles.card}>
-              <div className={styles.cardIcon}>
-                <img
-                  src={`/assets/figma/${step.icon}`}
-                  alt=""
-                  width="70"
-                  height="60"
-                  className={styles.stepImage}
-                />
+          {steps.map((step, i) => {
+            const isLastSpan = steps.length % 3 === 1 && i === steps.length - 1
+            return (
+              <div key={i} className={`${styles.card} ${isLastSpan ? styles.cardWide : ''}`}>
+                <div className={styles.cardIcon}>
+                  <img
+                    src={`/assets/figma/${step.icon}`}
+                    alt=""
+                    width="70"
+                    height="60"
+                    className={styles.stepImage}
+                  />
+                </div>
+                <div className={styles.stepNumber}>PASSO {i + 1}</div>
+                <p className={styles.stepText}>
+                  <strong>{step.title}</strong> {step.text}
+                </p>
               </div>
-              <div className={styles.stepNumber}>PASSO {i + 1}</div>
-              <p className={styles.stepText}>
-                <strong>{step.title}</strong> {step.text}
-              </p>
-            </div>
-          ))}
+            )
+          })}
         </div>
       </Container>
     </section>

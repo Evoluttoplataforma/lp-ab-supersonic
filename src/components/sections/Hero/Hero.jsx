@@ -20,13 +20,6 @@ export default function Hero({ id, data = {} }) {
 
   return (
     <section id={id} className={styles.hero}>
-      {/* Decorative circles */}
-      <div className={`${styles.circle} ${styles.circle1}`} />
-      <div className={`${styles.circle} ${styles.circle2}`} />
-      <div className={`${styles.circle} ${styles.circle3}`} />
-      <div className={`${styles.circle} ${styles.circle4}`} />
-      <div className={`${styles.circle} ${styles.circle5}`} />
-
       <Container>
         <div className={styles.grid}>
           {/* Left Column */}
@@ -105,7 +98,6 @@ export default function Hero({ id, data = {} }) {
 
           {/* Right Column - Image */}
           <div className={styles.imageCol}>
-            <div className={styles.imageBg} />
             {image && (
               <img
                 src={image}
@@ -144,9 +136,15 @@ export default function Hero({ id, data = {} }) {
               </svg>
             </div>
 
-            {/* Dashed curve connector */}
-            <svg className={styles.dashedCurve} viewBox="0 0 200 100" fill="none">
-              <path d="M0 50 Q100 0 200 80" stroke="var(--neutral-300)" strokeWidth="1.5" strokeDasharray="6 4" fill="none" />
+            {/* Dashed curve connecting seal to phone */}
+            <svg className={styles.dashedCurve} viewBox="0 0 450 486" fill="none" preserveAspectRatio="none">
+              <path
+                d="M 10 170 C 0 340, 60 420, 240 385"
+                stroke="var(--primary-500)"
+                strokeWidth="1.5"
+                strokeDasharray="6 4"
+                fill="none"
+              />
             </svg>
 
             {/* Floating Card */}

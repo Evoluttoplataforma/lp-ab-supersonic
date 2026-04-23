@@ -12,7 +12,7 @@ export default function Faq({ id, data = {} }) {
       <Container>
         <div className={styles.grid}>
           <div className={styles.left}>
-            {badge.label && <Badge icon={badge.icon} label={badge.label} variant="primary" />}
+            {badge.label && <Badge icon={badge.icon} label={badge.label} variant="default" />}
             <h2 className={styles.title}>{title}</h2>
           </div>
           <div className={styles.right}>
@@ -21,9 +21,25 @@ export default function Faq({ id, data = {} }) {
                 <button
                   className={styles.question}
                   onClick={() => setOpenIndex(openIndex === i ? -1 : i)}
+                  aria-expanded={openIndex === i}
                 >
                   <span>{item.question}</span>
-                  <span className={styles.chevron}>{openIndex === i ? '∧' : '∨'}</span>
+                  <svg
+                    className={styles.chevron}
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M6 9l6 6 6-6"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
                 </button>
                 {openIndex === i && (
                   <div className={styles.answer}>{item.answer}</div>

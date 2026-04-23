@@ -86,7 +86,7 @@ export default function Depoimentos({ id, data = {} }) {
       <div className={styles.grid}>
         <div className={styles.left}>
           <div className={styles.header}>
-            {badge.label && <Badge icon={badge.icon} label={badge.label} variant="primary" />}
+            {badge.label && <Badge icon={badge.icon} label={badge.label} variant="default" />}
             <h2 className={styles.title}>
               {title}
               {titleHighlight && <span className={styles.titleHighlight}>{titleHighlight}</span>}

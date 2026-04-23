@@ -23,8 +23,12 @@
   align-items: center;
   flex-shrink: 0;
   border-radius: var(--radius-12);
-  transition: background 200ms ease;
+  transition: background 450ms cubic-bezier(0.22, 1, 0.36, 1);
   order: 1;
+}
+
+.arrowBox svg {
+  transition: transform 550ms cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 /* Text part */
@@ -36,16 +40,13 @@
   font-family: var(--font-family-body);
   font-weight: var(--font-weight-medium);
   white-space: nowrap;
-  transition: background 200ms ease;
+  transition: background 450ms cubic-bezier(0.22, 1, 0.36, 1);
   order: 2;
 }
 
-/* ===== Hover: arrow swaps to the right (all variants) ===== */
-.button:hover .arrowBox {
-  order: 2;
-}
-.button:hover .textBox {
-  order: 1;
+/* ===== Hover: arrow glides forward (smooth, not swap) ===== */
+.button:hover .arrowBox svg {
+  transform: translateX(6px);
 }
 
 /* ===================== Variants ===================== */

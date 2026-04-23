@@ -1,5 +1,8 @@
 .benefitsGrid {
-  background: #ff5724;
+  background-color: #ff5724;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'><circle cx='2' cy='2' r='1' fill='%23ffffff' fill-opacity='0.18'/></svg>");
+  background-size: 32px 32px;
+  background-repeat: repeat;
   padding: 80px 120px 120px 120px;
   display: flex;
   flex-direction: column;
@@ -13,12 +16,11 @@
 }
 
 .title {
-  margin-top: var(--spacing-24);
   font-family: var(--font-family-heading);
   font-size: 40px;
   font-weight: 700;
   color: #ffffff;
-  margin: 0 0 var(--spacing-48) 0;
+  margin: var(--spacing-32) 0 var(--spacing-48) 0;
   line-height: 1.2;
   letter-spacing: -0.02em;
   max-width: 787px;
@@ -36,8 +38,8 @@
   padding: var(--spacing-24);
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-48);
-  min-height: 214px;
+  gap: var(--spacing-16);
+  min-height: 200px;
   flex: 1;
   box-shadow:
     0px 1px 2px rgba(0, 0, 0, 0.06),
@@ -46,8 +48,8 @@
 }
 
 .cardIcon {
-  width: 80px;
-  height: 80px;
+  width: 64px;
+  height: 64px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,8 +81,8 @@
   .title { font-size: 24px; margin-top: 16px; margin-bottom: 24px; }
   .grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
   .card { padding: 16px; height: auto; min-height: 140px; gap: 16px; border-radius: 14px; }
-  .cardIcon { width: 48px; height: 48px; }
-  .cardImage { width: 48px; height: 48px; }
+  .cardIcon { width: 64px; height: 64px; }
+  .cardImage { width: 64px; height: 64px; }
   .cardLabel { font-size: 13px; line-height: 18px; }
 }
 

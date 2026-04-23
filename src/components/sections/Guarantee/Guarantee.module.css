@@ -2,6 +2,42 @@
   padding: 120px 80px;
   background: #0d0d0d;
   overflow: hidden;
+  position: relative;
+}
+
+.guarantee::before,
+.guarantee::after {
+  content: '';
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
+  opacity: 0.35;
+}
+
+.guarantee::before {
+  width: 180px;
+  height: 160px;
+  top: 15%;
+  left: 6%;
+  background-image: url('/assets/figma/icons0.svg');
+  transform: rotate(-12deg);
+}
+
+.guarantee::after {
+  width: 200px;
+  height: 180px;
+  bottom: 12%;
+  right: 6%;
+  background-image: url('/assets/figma/icons1.svg');
+  transform: rotate(10deg);
+}
+
+@media (max-width: 768px) {
+  .guarantee::before,
+  .guarantee::after {
+    display: none;
+  }
 }
 
 .content {
@@ -19,14 +55,19 @@
 .badge {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 999px;
-  padding: 8px 16px;
+  padding: 6px 12px;
   font-size: 12px;
   font-weight: 600;
   color: #ffffff;
   text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.badge img {
+  margin-right: 4px;
 }
 
 .title {
@@ -41,26 +82,27 @@
 }
 
 .titleIcon {
-  width: 50px;
-  height: 44px;
+  width: 57px;
+  height: 50px;
   display: inline;
   vertical-align: middle;
   margin: 0 4px;
 }
 
 .titleIcon2 {
-  width: 52px;
-  height: 46px;
+  width: 58px;
+  height: 52px;
   display: inline;
   vertical-align: middle;
-  opacity: 0.3;
   margin: 0 4px;
 }
 
 .highlight {
   background: rgba(255, 255, 255, 0.15);
-  padding: 2px 12px;
+  padding: 0 6px;
   border-radius: 8px;
+  display: inline-block;
+  line-height: 1.1;
 }
 
 .description {

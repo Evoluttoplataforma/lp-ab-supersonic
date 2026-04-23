@@ -57,7 +57,7 @@
 }
 
 .navLink:hover {
-  color: var(--support-default);
+  color: var(--primary-500);
 }
 
 .actions {

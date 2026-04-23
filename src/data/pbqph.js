@@ -8,7 +8,7 @@ export const pbqphData = {
   },
 
   hero: {
-    badge: { icon: '💡', label: 'A CONSULTORIA DIGITAL Nº 1 DO BRASIL' },
+    badge: { icon: '🏆', label: 'A CONSULTORIA DIGITAL Nº 1 DO BRASIL' },
     headline: 'Certifique sua construtora no ',
     highlightText: 'PBQP-H ou receba 200%',
     subHeadline: ' do valor investido de volta',
@@ -115,8 +115,8 @@ export const pbqphData = {
   },
 
   speed: {
-    badge: { icon: '⚡', label: 'VELOCIDADE NA CERTIFICAÇÃO' },
-    title: 'A forma mais rápida de implementar os critérios do PBQP-H ',
+    badge: { icon: 'bolt', label: 'VELOCIDADE NA CERTIFICAÇÃO' },
+    title: 'A forma mais rápida de implementar os critérios do PBQP-H',
     titleHighlight: 'em até 40 dias.',
     checklist: [
       'Com modelos personalizados, seus documentos já vêm prontos para uso, permitindo que você e sua equipe iniciem o processo imediatamente.',
@@ -144,7 +144,7 @@ export const pbqphData = {
   },
 
   reasons: {
-    badge: { icon: '📊', label: 'BENEFÍCIOS PARA SUA EMPRESA' },
+    badge: { icon: 'description', label: 'BENEFÍCIOS PARA SUA EMPRESA' },
     title: '3 motivos para você certificar a sua ',
     titleHighlight: 'construtora!',
     image: '/assets/figma/img-orbit1.png',
@@ -171,7 +171,7 @@ export const pbqphData = {
       {
         label: 'CASE DE SUCESSO',
         company: 'Construtora Carvalho Forte',
-        text: 'O vídeo apresenta um <strong>case de sucesso real</strong> da <strong>Construtora Carvalho Forte</strong>, que obteve <strong>melhoria significativa em sua gestão de qualidade e performance com a adoção do PBQP-H</strong> com o apoio da <strong>Templum Consultoria</strong>.',
+        text: 'O vídeo apresenta um <strong>case de sucesso real</strong> da <strong>Construtora Carvalho Forte</strong>, que obteve <strong>melhoria significativa em sua gestão de qualidade e performance com a adoção do PBQP-H</strong> (Programa Brasileiro da Qualidade e Produtividade do Habitat) com o apoio da <strong>Templum Consultoria</strong>. A consultoria atuou orientando a empresa desde o diagnóstico até a estruturação das práticas necessárias para alcançar os objetivos do programa, gerando <strong>resultados práticos e mensuráveis</strong> no desempenho da organização.',
         type: 'text',
       },
       {
@@ -215,7 +215,7 @@ export const pbqphData = {
   },
 
   coverage: {
-    badge: { icon: '📈', label: 'ESTRUTURA PREPARADA PARA OPERAR EM ESCALA' },
+    badge: { icon: 'trending_up', label: 'ESTRUTURA PREPARADA PARA OPERAR EM ESCALA' },
     title: 'Consultoria 100% online, com atuação em mais de ',
     titleHighlight: '800 cidades',
     titleSuffix: ' no Brasil, Portugal e Africa.',
