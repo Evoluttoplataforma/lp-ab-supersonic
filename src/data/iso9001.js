@@ -46,7 +46,7 @@ export const iso9001Data = {
     cards: [
       {
         icon: 'task_alt',
-        text: 'Automatize, simplifique e certifique com o GINA',
+        text: 'Certificação garantida em contrato',
       },
       {
         icon: 'speed',
